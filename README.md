@@ -6,10 +6,10 @@ This repository contains scripts for installing Nexus Repository Manager on Cent
 
 ### Nexus Repository Manager (CentOS 9)
 
-- **`install_nexus_jdk17.sh`**: Installs Nexus Repository Manager using JDK 17 on CentOS 9.
-- **`install_nexus_jdk11.sh`**: Installs Nexus Repository Manager using JDK 11 on CentOS 9.
-- **`install_nexus_jdk8.sh`**: Installs Nexus Repository Manager using JDK 8 on CentOS 9.
+- **`Nexus-Setup-JDK17.sh`**: Installs Nexus Repository Manager using JDK 17 on CentOS 9.
+- **`Nexus-Setup-JDK11.sh`**: Installs Nexus Repository Manager using JDK 11 on CentOS 9.
+- **`Nexus-Setup-JDK8.sh`**: Installs Nexus Repository Manager using JDK 8 on CentOS 9.
 
-### Jenkins (Ubuntu 20.04)
+### Jenkins (Ubuntu 20)
 
-- **`install_jenkins.sh`**: Installs Jenkins on Ubuntu 20 Ensure that the appropriate JDK version is installed before running this script.
+- **`Jenkins-Setup.sh`**: Installs Jenkins on Ubuntu 20 Ensure that the appropriate JDK version is installed before running this script.
