@@ -17,7 +17,3 @@ sudo apt-get update
 
 # Install Jenkins
 sudo apt-get install jenkins -y
-
-# User & password
-# user : adminanas
-# password : admin
