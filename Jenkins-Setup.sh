@@ -2,9 +2,10 @@
 
 # Update package list
 sudo apt update
+sudo apt upgrade -y
 
-# Install JDK 11
-sudo apt install openjdk-11-jdk -y
+# Install JDK 17
+sudo apt install openjdk-17-jdk -y
 
 # Download Jenkins key and store it in keyring
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
@@ -17,3 +18,12 @@ sudo apt-get update
 
 # Install Jenkins
 sudo apt-get install jenkins -y
+
+echo "Administrator password of jenkins is "
+echo "###############################################"
+cat /var/lib/jenkins/secrets/initialAdminPassword
+echo "###############################################"
+
+# User & password
+# user : admin
+# password : admin
