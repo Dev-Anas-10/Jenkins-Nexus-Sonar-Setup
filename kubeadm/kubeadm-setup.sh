@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo -i
 # Update and upgrade the system
 sudo apt update && sudo apt upgrade -y
 
