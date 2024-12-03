@@ -89,3 +89,5 @@ kubectl delete -f <directory-path>
 https://github.com/kubernetes/ingress-nginx/blob/main/docs/deploy/index.md
 sed -i 's|proxy-real-ip-cidr:.*|proxy-real-ip-cidr: ${{ env.CIDR }}|' deploy.yaml
 sed -i 's|arn:aws:acm:us-west-2:.*|${{ env.CERT_ARN }}|' deploy.yaml
+
+# ingress ELB in Local VM search metallb
