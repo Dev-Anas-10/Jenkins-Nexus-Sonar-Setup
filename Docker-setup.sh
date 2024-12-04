@@ -25,7 +25,7 @@ sudo usermod -aG docker vagrant
 sudo usermod -aG docker jenkins
 
 # Download Docker Compose standalone binary and make it executable
-curl -SL https://github.com/docker/compose/releases/download/v2.29.6/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+curl -SL https://github.com/docker/compose/releases/download/v2.30.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Print Docker and Docker Compose versions to confirm installation
