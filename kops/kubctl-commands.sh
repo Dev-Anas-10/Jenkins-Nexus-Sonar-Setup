@@ -85,7 +85,7 @@ kubectl apply -f <directory-path>
 
 kubectl delete -f <directory-path>
 
-# info abot ingress 
+# info abot ingress ELB in AWS
 https://github.com/kubernetes/ingress-nginx/blob/main/docs/deploy/index.md
 sed -i 's|proxy-real-ip-cidr:.*|proxy-real-ip-cidr: ${{ env.CIDR }}|' deploy.yaml
 sed -i 's|arn:aws:acm:us-west-2:.*|${{ env.CERT_ARN }}|' deploy.yaml
